@@ -1,0 +1,28 @@
+name: root
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - scipy
+  - numpy
+  - pandas>=0.23
+  - pyarrow
+  - jupyter
+  - matplotlib
+  - scikit-learn>=0.20
+  - joblib
+  - keras
+  - tensorflow
+  - pytorch-cpu
+  - torchvision-cpu
+  - xgboost
+  - lightgbm
+  - catboost
+  - tqdm
+  - pyarrow
+  - imbalanced-learn
+  - tsfresh
+  - featuretools
+  - pip:
+      - https://api.github.com/repos/paris-saclay-cds/ramp-workflow/zipball/master
+      - stldecompose
