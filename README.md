@@ -1,13 +1,26 @@
-# RAMP starting kit on solar wind classification
+# Data Camp Projet: Tweets Classification
 
 
-_Authors: Gautier Nguyen, Joris van den Bossche, Nicolas Aunai & Balazs Kegl_
+_Authors: Yao Pacome, Nicolas Ntollot, 
 
-Interplanetary Coronal Mass Ejections (ICMEs) result from magnetic instabilities occurring in the Sun atmosphere, and interact with the planetary environment and may result in intense internal activity such as strong particle acceleration, so-called geomagnetic storms and geomagnetic induced currents. These effects have serious consequences regarding space and ground technologies and understanding them is part of the so-called space weather discipline.
+* II Introduction
 
-ICMEs signatures as measured by in-situ spacecraft come as patterns in time series of the magnetic field, the particle density, bulk velocity, temperature etc. Although well visible by expert eyes, these patterns have quite variable characteristics which make naive automatization of their detection difficult.
+Twitter sentiment analysis is the method of Natural Language Processing (NLP). 
+Sentiment Analysis is the process of determining the sentiment behind the tweet whether a piece of written text(tweet) is positive, neutral or negative.
 
-The goal of this RAMP is to detect Interplanetary Coronal Mass Ejections (ICMEs) in the data measured by in-situ spacecraft.
+The goal is using machine learning techniques and natural language processing to extract the subjective information of a document and try to classify it according to its polarity such as positive, neutral or negative. In real life, Sentiment analysis is very important, for example, in business analytics data is mined for patterns that would help better understand customers, and improve sales and marketing. Also, sentiment analysis brings together various research areas such as natural language
+processing, data mining and text mining, and is fast becoming of major importance to organizations as they strive to integrate computational intelligence methods into their operations, and attempts to shed more light on, and improve, their products
+and services.
+
+ In this project, we analyze the sentiments behind the twitter’s tweet. Those refers to the people felling  about apple produce.  We have three type of sentiment:
+Positive, Neutral and Negative.
+
+#       II Dataset
+
+
+
+
+
 
 
 #### Set up
