@@ -1,7 +1,7 @@
 # Data Camp Projet: Tweets Classification
 
 
-_Authors: Abdellahi Ebnou Oumar, Yao Pacome, Nicolas Tollot, Sonali Patekar, Moustapha Mohamed Mahmoud, Mohamed Vadhel Ebnou Oumar
+_Authors: Abdellahi Ebnou Oumar, Yao Pacome, Nicolas Tollot, Sonali Patekar, Moustapha Mohamed Mahmoud, Mohamed Vadhel Ebnou Oumar_
 
 ## Introduction
 
