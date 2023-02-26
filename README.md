@@ -1,9 +1,9 @@
 # Data Camp Projet: Tweets Classification
 
 
-_Authors: Yao Pacome, Nicolas Ntollot, Sonali, Moustapha, Vadhel
+_Authors: Abdellahi Ebnou Oumar, Yao Pacome, Nicolas Tollot, Sonali Patekar, Moustapha Mohamed Mahmoud, Mohamed Vadhel Ebnou Oumar
 
-##II Introduction
+## Introduction
 
 Twitter sentiment analysis is the method of Natural Language Processing (NLP). 
 Sentiment Analysis is the process of determining the sentiment behind the tweet whether a piece of written text(tweet) is positive, neutral or negative.
@@ -37,7 +37,7 @@ Open a terminal and
 
 #### Local notebook
 
-Get started on this RAMP with the [dedicated notebook](solar_wind_starting_kit.ipynb).
+Get started on this RAMP with the [dedicated notebook](tweets_classification_starting_kit.ipynb).
 
 To test the starting-kit, run
 
