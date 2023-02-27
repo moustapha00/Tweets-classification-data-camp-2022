@@ -1,5 +1,6 @@
 numpy
 scipy
+nltk
 pandas>=0.23
 scikit-learn>=0.20
 pyarrow
@@ -8,3 +9,5 @@ matplotlib
 joblib
 osfclient
 ramp-workflow
+wordcloud
+collections
