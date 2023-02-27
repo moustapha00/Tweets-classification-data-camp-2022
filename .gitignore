@@ -1,5 +1,8 @@
 submissions/*/training_output/
 
+# Data
+data/
+glove.twitter.27B.25d.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
