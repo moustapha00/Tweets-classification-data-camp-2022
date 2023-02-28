@@ -42,7 +42,7 @@ To test the starting-kit, run
 
 
 ```
-ramp-test --quick-test
+!ramp-test --submission starting_kit
 ```
 
 
