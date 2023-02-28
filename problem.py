@@ -1,20 +1,19 @@
 import os
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit
-from rampwf.workflows import FeatureExtractorClassifier
 import rampwf as rw
+from rampwf.workflows.sklearn_pipeline import Estimator
 
 # Define the data and the prediction task
-problem_title = 'Tweets Multiclass Classification'
-_target_column_name = 'target'
+problem_title = 'Tweets Multilabel Classification'
+_target_column_name = 'Sentiment'
 
 # -----------------------------------------------------------------------------
 # Predictions type
 # -----------------------------------------------------------------------------
 
-# Predictions should be one of 'negative', 'neutral', or 'positive'
-_prediction_label_names = ['negative', 'neutral', 'positive']
+# Predictions should be one of 'irrelevant', 'negative', 'neutral', or 'positive'
+_prediction_label_names = ['irrelevant', 'negative', 'neutral', 'positive']
 Predictions = rw.prediction_types.make_multiclass(label_names=_prediction_label_names)
 
 
@@ -22,17 +21,16 @@ Predictions = rw.prediction_types.make_multiclass(label_names=_prediction_label_
 # Worklow element
 # -----------------------------------------------------------------------------
 
-# Define the feature extractor and the classifier
-workflow = FeatureExtractorClassifier()
+# Define the feature estimator
+workflow = Estimator()
 
 
 # -----------------------------------------------------------------------------
 # Score types
 # -----------------------------------------------------------------------------
-
+  
 # Define the evaluation metric
 score_types = [
-    rw.score_types.ROCAUC(name='auc'),
     rw.score_types.Accuracy(name='acc'),
     rw.score_types.NegativeLogLikelihood(name='nll'),
 ]
@@ -42,9 +40,9 @@ score_types = [
 # ----------------------------------------------------------------------------- 
 
 # Define the input and output files
-_train = 'data/train.csv'
-_test = 'data/test.csv'
-_submission = 'data/submission.csv'
+_train = 'data/train_data.csv'
+_test = 'data/test_data.csv'
+#_submission = 'data/submission.csv'
 
 
 def _read_data(path, f_name):
