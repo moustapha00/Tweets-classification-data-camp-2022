@@ -15,15 +15,10 @@ This project involves analyzing the sentiments behind tweets related to four com
 Our dataset contains 5112 tweets labeled as irrelevant, negative, neutral, or positive, representing people's feelings towards the four companies mentioned above. We split the data into training and testing sets.
 
 Types	| Occurrences
---- | ---
 irrelevant |	1689
---- | ---
 negative	| 572
---- | ---
 neutral	| 2333
---- | ---
 positive	| 519
---- | ---
 Total général |	5113
 
 
