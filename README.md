@@ -12,7 +12,7 @@ In real life, sentiment analysis is crucial for business analytics, where data i
 This project involves analyzing the sentiments behind tweets related to four companies: Apple, Google, Twitter, and Microsoft. The sentiments are categorized as Positive, Neutral, Negative, or Irrelevant, indicating people's feelings towards these companies.
 
 ### Dataset
-Our dataset contains 5112 tweets labeled as irrelevant, negative, neutral, or positive, representing people's feelings towards the four companies mentioned above. We split the data into training and testing sets.
+The dataset contains 5112 tweets labeled as irrelevant, negative, neutral, or positive, representing people's feelings towards the four companies mentioned above. We split the data into training and testing sets.
 
 | Types | Occurrences |
 | -------- | -------- |
