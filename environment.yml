@@ -1,4 +1,4 @@
-name: ramp-solar-wind
+name: ramp-tweets
 channels:
   - defaults
   - conda-forge
