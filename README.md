@@ -5,13 +5,11 @@ _Authors: Abdellahi Ebnou Oumar, Yao Pacome, Nicolas Tollot, Sonali Patekar, Mou
 
 ## Introduction
 
-Twitter sentiment analysis is the method of Natural Language Processing (NLP). 
-Sentiment Analysis is the process of determining the sentiment behind the tweet whether a piece of written text(tweet) is positive, neutral or negative.
+Twitter sentiment analysis is a Natural Language Processing (NLP) method that involves determining the sentiment behind a tweet, whether it is positive, neutral, or negative. The goal is to extract subjective information from a document using machine learning and NLP techniques and classify it according to its polarity.
 
-The goal is using machine learning techniques and natural language processing to extract the subjective information of a document and try to classify it according to its polarity such as positive, neutral or negative. In real life, Sentiment analysis is very important, for example, in business analytics data is mined for patterns that would help better understand customers, and improve sales and marketing. Also, sentiment analysis brings together various research areas such as natural language
-processing, data mining and text mining, and is fast becoming of major importance to organizations as they strive to integrate computational intelligence methods into their operations, and attempts to shed more light on, and improve, their products and services.
+In real life, sentiment analysis is crucial for business analytics, where data is mined to identify patterns that help better understand customers and improve sales and marketing. Sentiment analysis is a multidisciplinary field that encompasses natural language processing, data mining, and text mining. As organizations strive to integrate computational intelligence methods into their operations, sentiment analysis is becoming increasingly important in shedding light on and improving their products and services.
 
- In this project, we analyze the sentiments behind the twitter’s tweet. Those refers to the people felling  about four compagnies: Apple, Google, Tweeter, Microsoft.  We have four  type of sentiment: Positive, Neutral, Negative and Irrelevant
+This project involves analyzing the sentiments behind tweets related to four companies: Apple, Google, Twitter, and Microsoft. The sentiments are categorized as Positive, Neutral, Negative, or Irrelevant, indicating people's feelings towards these companies.
 
 ### Dataset
 Our dataset contains 5112 tweets and those tweet are labelling w.r.t  the type above. We split the data to the training data and testing.
